@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-
+    "start": "nodemon app.js"
   },
   "author": "Anand",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow/tfjs": "^2.3.0",
     "express": "^4.17.1",
     "http": "0.0.1-security",
+    "nodemon": "^2.0.4",
     "path": "^0.12.7"
   }
 }
